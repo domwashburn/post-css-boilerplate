@@ -3,6 +3,7 @@ var gulp = require('gulp'),
 	processors = [
 		require('postcss-mixins'),
 		require('postcss-simple-vars'),
+		require('postcss-functions'),
 		require('postcss-nested'),
 		require('autoprefixer-core')({ browsers: ['last 2 versions', '> 2%'] })
 	];
